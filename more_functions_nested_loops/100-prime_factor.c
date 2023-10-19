@@ -16,7 +16,7 @@ int main(void)
 		maxPrime = 2;
 		n /= 2;
 	}
-	for (addNum = 3; oddNum <= sqrt(n); oddNum += 2)
+	for (oddNum = 3; oddNum <= sqrt(n); oddNum += 2)
 	{
 		while (n % oddNum == 0)
 		{
