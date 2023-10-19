@@ -2,10 +2,10 @@
 #include <math.h>
 
 /**
-* main - Prints the largest prime factor of 612852475143
-*
-* Return: 0
-*/
+ * main - Prints the largest prime factor of 612852475143
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	long int n = 612852475143;
@@ -26,6 +26,6 @@ int main(void)
 	}
 	if (n > 2)
 		maxPrime = n;
-	printf("i\n", maxPrime);
+	printf("%i\n", maxPrime);
 	return (0);
 }
