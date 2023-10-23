@@ -1,16 +1,11 @@
 #include "main.h"
-#include "2-strlen.c"
 /** 
 * _puts - print a string to stdout
 * @str: pointer to the string to print
 */
 void _puts(char *str)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++);
-	{
-		_putchar(str[i]);
-	}
+	while (*str != '\0')
+		_putchar(*(str++));
 	_putchar('\n');
 }
