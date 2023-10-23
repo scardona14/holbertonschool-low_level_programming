@@ -1,8 +1,7 @@
 #include "main.h"
 /** 
 * _puts - puts a string
-*
-* @str: string to print
+* @str: pointer to the string to print
 */
 void _puts(char *str);
 {
@@ -13,3 +12,4 @@ void _puts(char *str);
 		_putchar(str[i]);
 	}
 		_putchar('\n');
+}
