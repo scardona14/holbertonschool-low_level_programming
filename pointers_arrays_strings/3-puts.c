@@ -3,7 +3,7 @@
 * _puts - puts a string
 * @str: pointer to the string to print
 */
-void _puts(char *str);
+void _puts(char *str)
 {
 	int i;
 
