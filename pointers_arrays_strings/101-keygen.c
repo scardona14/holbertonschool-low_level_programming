@@ -1,30 +1,26 @@
+#include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
-#define LENGTH 15
-
+/**
+ * main - Program that generates random valid passwords
+ * @void: Empty input
+ *
+ * Description: Program that generates random valid passwords
+ * Return: 0 if works
+ */
 int main(void)
 {
-    char password[LENGTH + 1];
-    int i, sum, randomChar;
+	int i = 0, random, checksum;
 
-    srand(time(0));
-    sum = 0;
-
-    for (i = 0; sum < 2772 - 127; i++)
-    {
-        randomChar = rand() % 126;
-        if (randomChar < 33)
-            randomChar += 33;
-        password[i] = randomChar;
-        sum += password[i];
-    }
-
-    password[i] = 2772 - sum;
-    password[i + 1] = '\0';
-
-    printf("%s\n", password);
-
-    return 0;
+	srand(time(NULL));
+	checksum = 2772;
+	while (checksum > 122)
+	{
+		random = (rand() % 100);
+		printf("%c", random);
+		checksum -= random;
+		i++;
+	}
+	printf("%c", checksum);
+	return (0);
 }
