@@ -2,12 +2,11 @@
 #include <stdio.h>
 /**
 * _atoi - converts a string to an integer
-* @s: string being coverted
+* @s: string to convert
 *
-* return: converted integer
+* Return: returns integer value
 */
 int _atoi(char *s)
-
 {
 	int i = 0;
 	int neg = 0;
