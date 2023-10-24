@@ -16,7 +16,7 @@ int _atoi(char *s)
 	while (s[i])
 	{
 		if (s[i] == '-')
-			neg ++;
+			neg++;
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
 			conv = conv * 10 + s[i] - '0';
