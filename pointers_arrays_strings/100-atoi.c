@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _atoi - convert string to int
+* _atoi - converts a string to an integer
 * @s: string being coverted
 *
 * return: converted integer
