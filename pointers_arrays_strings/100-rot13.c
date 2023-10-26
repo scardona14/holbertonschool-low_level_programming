@@ -2,7 +2,7 @@
 /**
 * *rot13 - encrypts code
 * @s: string to encrypt
-* return: char value
+* Return: the resulting string
 */
 char *rot13(char *s)
 {
