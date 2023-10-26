@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* rot13 - encrypts code
+* *rot13 - encrypts code
 * @s: string to encrypt
 * return: char value
 */
