@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print _chessboard - prints a chessboard
+* print_chessboard - prints a chessboard
 * @a: arraya being evaluated
 */
 void print_chessboard(char (*a)[8])
