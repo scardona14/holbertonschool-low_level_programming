@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* _strspn - Gets the length of a prefix substring
+* _strspn - Gets the length of a prefix substr
 * @s: the string being evaluated
-* @accept: the set of bytes being compared
-* return: the number of bytes in the prefix substring
+* @accept:  bytes being compared
+* Return: the number of bytes
 */
 unsigned int _strspn(char *s, char *accept)
 {
