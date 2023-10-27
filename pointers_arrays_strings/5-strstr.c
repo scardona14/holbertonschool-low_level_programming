@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * _strstr - Locates a substring
-* @haystack: the string being searched
-* @needle: the substring being searched for
+* @haystack: string to search in
+* @needle: substring to look for
 * Return: pointer to beginning of located substring or NULL
 */
 char *_strstr(char *haystack, char *needle)
