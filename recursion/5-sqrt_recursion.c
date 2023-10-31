@@ -20,7 +20,7 @@ int _sqrt_recursion(int n)
 * sqaure root of a number
 * @n: number to calculate the square root of
 * @i: iterator
-*
+* Return: the resulting square root
 */
 int actual_sqrt_recursion(int n, int i)
 {
