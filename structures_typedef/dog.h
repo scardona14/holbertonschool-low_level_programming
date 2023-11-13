@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef DOG_H_
+#define DOG_H_
 /**
 * struct dog - dog attributes
 * @name: name of the dog
@@ -16,7 +16,7 @@ struct dog
 };
 
 /**
-* dog_t - typedef for dog structure
+* dog_t - typedef for struct dog
 */
 typedef struct dog dog_t;
 
