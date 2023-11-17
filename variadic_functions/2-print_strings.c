@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
-* prints_strings - print strings
+* print_strings - print strings
 * @separator: string to be printed betweeen arguments
 * @n: number of arguments
 */
