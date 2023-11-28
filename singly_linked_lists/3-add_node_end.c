@@ -14,7 +14,7 @@ int _strlen(const char *s)
 	return (i);
 }
 /**
-* add_note_end - adds a node at the end of a list
+* add_node_end - adds a node at the end of a list
 * @head: pointer to address of a list
 * @str: pointer to string
 *
