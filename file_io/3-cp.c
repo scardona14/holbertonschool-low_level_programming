@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - copies content ofa file to another
+* main - copies content of a file to another
 * @argc: number of command line arguments
 * @argv: array containing command line arguments
 *
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	char buf[1024];
 
 	if (argc != 3)
-		dprintf(STDERR_FILENO, "Usage: cp file_form file_to\n"), exit(97);
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
 	f1 = open(argv[1], O_RDONLY);
 	if (f1 < 0)
 	{
