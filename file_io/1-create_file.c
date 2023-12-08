@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _strlen - gets the length of a string
-* @s: string being evaluated
-*
-* Return: legth of string
-*/
+ * _strlen - gets the length of a string
+ * @s: string being evaluated
+ *
+ * Return: legth of string
+ */
 int _strlen(char *s)
 {
 	int i = 0;
@@ -15,13 +15,13 @@ int _strlen(char *s)
 	return (i);
 }
 /**
-* create_file - creates a file
-* @filename: name of file to create
-* @text_content: null terminated string to write
-*
-* Return: 1 on success
-* -1 on failure
-*/
+ * create_file - creates a file
+ * @filename: name of file to create
+ * @text_content: null terminated string to write
+ *
+ * Return: 1 on success
+ * -1 on failure
+ */
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
